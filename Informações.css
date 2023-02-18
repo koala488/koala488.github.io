@@ -1,0 +1,94 @@
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Estilos de header */
+  header {
+    background-color: #ff2e2e;
+    color: #fff;
+  }
+  
+  header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  header h1 {
+    font-size: 36px;
+  }
+  
+  header ul {
+    list-style: none;
+  }
+  
+  header li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  header a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Estilos de main */
+  main {
+    background-color: #000;
+    color: #fff;
+    padding: 40px 0;
+  }
+  
+  main .container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  main h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+  }
+  
+  main .event {
+    margin-bottom: 40px;
+  }
+  
+  main .event img {
+    width: 100%;
+  }
+  
+  main .event h3 {
+    font-size: 24px;
+    margin: 20px 0;
+  }
+  
+  main .event p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  main .event a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff2e2e;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Estilos de footer */
+  footer {
+    background-color: #ff2e2e;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  footer .container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+  }
